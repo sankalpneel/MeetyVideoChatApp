@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+  }
+
+  .header {
+    background-color:black;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    height: 80px;
+
+  }
+
+  .logo  {
+    position: absolute;
+    top:5px;
+    width: 200px;
+    height: 75px;
+}
+
+.logo:hover{
+  width: 215px;
+  height: 85px;
+  display: ;
+}
+
+.loginhead {
+    color: white;
+    position: relative;
+    left: 1400px;
+    bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.logintext:hover {
+  color: red;
+}
+.logintext{
+  color:white;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+}
+
+  .back {
+      background-image: url(../images/back.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+
+  }
+  .align-items-center {
+      -ms-flex-align: center;
+      align-items: center;
+  }
+
+
+.d-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.bg-overlay {
+
+}
+
+
+.logintable{
+  height: 600px;
+  width: 800px;
+
+  display: block;
+  z-index:2;
+  position: absolute;
+  align-items: center;
+  left:360px;
+  top: 120px;
+
+
+}
+
+.tableback{
+  height: 100%;
+  width: 100%;
+  background-color: #1ac8cd5c;
+  z-index:3;
+}
+
+.ta
+{
+  position: absolute;
+  top:10px;
+}
+
+
+
+
+#video-grid {
+  isplay: grid;
+      justify-content: center;
+      align-content: center;
+      /* gap: 30px; */
+      grid-auto-flow: column;
+      grid-template-columns: 400px 400px;
+      grid-template-rows: 300px 300px;
+
+}
+
+video {
+
+  margin-left: 75px;
+      width: 280px;
+      height: 230px;
+      object-fit: cover;
+      margin-top: 30px;
+      border: 10px solid #ffcc29;
+
+}
